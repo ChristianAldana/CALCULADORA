@@ -38,37 +38,7 @@ int main(int argc, char** argv) {
                 cout<<"La suma resulta ser: "<<resul;
                 getch(); //Detener el programa
                 break;
-            }
-            case '-':{ //Caso de resta
-                cout<<"		<--- RESTA --->"<<endl<<endl;
-                cout<<"Digite el Operando 1: "; cin>>op1;
-                cout<<"Digite el Operando 2: "; cin>>op2;
-                resul = op1 - op2; //Operacion de Resta
-
-                cout<<"La resta resulta ser: "<<resul;
-                getch(); //Detener el Programa
-                break;
-            }
-            case '*':{ //Caso de multiplicacion
-                cout<<"		<--- Multiplicacion --->"<<endl<<endl;
-                cout<<"Digite el Operando 1: "; cin>>op1;
-                cout<<"Digite el Operando 2: "; cin>>op2;
-                resul = op1 * op2; //Operacion de Multiplicacion
-
-                cout<<"La multiplicacion resulta ser: "<<resul;
-                getch(); //Detener el Programa
-                break;
-            }
-            case '/':{ //Caso de Division
-                cout<<"		<--- Division --->"<<endl<<endl;
-                cout<<"Digite el Operando 1: "; cin>>op1;
-                cout<<"Digite el Operando 2: "; cin>>op2;
-                resul = op1 / op2; //Operación de Division
-
-                cout<<"La division resulta ser: "<<resul;
-                getch(); //Detener el progrma
-                break;
-            }
+           
             default: { //Mensaje de Error
                 cout<<"Este Operador es Invalido, Preciona enter para continuar";
                 getch(); //Detener el programa
