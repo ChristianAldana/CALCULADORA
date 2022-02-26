@@ -39,7 +39,17 @@ int main(int argc, char** argv) {
                 getch(); //Detener el programa
                 break;
             }
-           
+            case '-':{ //Caso de resta
+                cout<<"		<--- RESTA --->"<<endl<<endl;
+                cout<<"Digite el Operando 1: "; cin>>op1;
+                cout<<"Digite el Operando 2: "; cin>>op2;
+                resul = op1 - op2; //Operacion de Resta
+
+                cout<<"La resta resulta ser: "<<resul;
+                getch(); //Detiene el Programa
+                break;
+            }
+
             default: { //Mensaje de Error
                 cout<<"Este Operador es Invalido, Preciona enter para continuar";
                 getch(); //Detener el programa
