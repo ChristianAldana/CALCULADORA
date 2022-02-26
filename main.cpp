@@ -38,6 +38,7 @@ int main(int argc, char** argv) {
                 cout<<"La suma resulta ser: "<<resul;
                 getch(); //Detener el programa
                 break;
+            }
            
             default: { //Mensaje de Error
                 cout<<"Este Operador es Invalido, Preciona enter para continuar";
