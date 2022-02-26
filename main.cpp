@@ -46,7 +46,17 @@ int main(int argc, char** argv) {
                 resul = op1 - op2; //Operacion de Resta
 
                 cout<<"La resta resulta ser: "<<resul;
-                getch(); //Detiene el Programa
+                getch(); //Detener el Programa
+                break;
+            }
+            case '*':{ //Caso de multiplicacion
+                cout<<"		<--- Multiplicacion --->"<<endl<<endl;
+                cout<<"Digite el Operando 1: "; cin>>op1;
+                cout<<"Digite el Operando 2: "; cin>>op2;
+                resul = op1 * op2; //Operacion de Multiplicacion
+
+                cout<<"La multiplicacion resulta ser: "<<resul;
+                getch(); //Detener el Programa
                 break;
             }
 
